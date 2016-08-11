@@ -6,3 +6,5 @@
 1. Run `npm install` to download dependencies
 2. Run Node.js server `node static`
 3. Try it.
+
+*P.S. To check progress bar on local host imitate bad coonection 3G or lower*
