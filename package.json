@@ -1,0 +1,18 @@
+{
+  "name": "dropzone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-static": "^0.7.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

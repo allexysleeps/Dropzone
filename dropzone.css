@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Helvetica Neue';
+}
+body {
+	margin: 0;
+}
+.wrapper {
+	width: 500px;
+	margin: 50px auto 0;
+}
+.dropzone form {
+	width: 100%;
+}
+.dropzone input {
+	display: block;
+	margin: 10px 0;
+}
+.dropzone .status {
+	position: relative;
+	border: solid 1px #333;
+}
+.dropzone .loader {
+	width: 0%;
+	height: 20px;
+	background: #f7f261;
+	transition: width .6s;
+}
+.dropzone .loader span {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.dropzone #zone {
+	margin-bottom: 20px;
+	height: 100px;
+	border: dashed 1px #0037ff;
+	position: relative;
+}
+.dropzone #zone span {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
